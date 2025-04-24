@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    background-color: rgb(31, 173, 173);
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+
+}
+
+.menu{
+    width: 50%;
+    float: left;
+}
+
+.search{
+    width: 30%;
+    float: left;
+}
+
+.item{
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+
+.item li{
+    display: inline-block;
+}
+
+.item li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.search{
+    text-align: right;
+    margin:0;
+}
+
+.container{
+    width: 100%;
+}
