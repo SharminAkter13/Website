@@ -53,6 +53,7 @@ header{
 
 .container{
     width: auto;
+    height: auto;
     margin-left: 5px;
     /* float: left; */
 
@@ -87,6 +88,7 @@ p{
     float: inline-end;
     margin-top: 20px;
     margin-bottom: 10px;
+    background-color: #f1948a;
 }
 .oimg{
     background-image: url(offer33.png);
@@ -104,8 +106,16 @@ p{
 
 .container2{
     width: auto;
+}
 
-
+.headline h1{
+    font-size: 18pt; 
+    padding: 5px;
+     margin: 5px; 
+    font-weight: bold;
+    width: 160px;
+    height: auto;
+    color: #f1948a;
 }
 .image2{
     width: auto;
