@@ -1,6 +1,5 @@
 header {
   width: 100%;
-  /* background-color: #d35400; */
   overflow: hidden;
   border-bottom: 1px solid #f1948a;
 }
@@ -54,7 +53,6 @@ header {
   width: auto;
   height: auto;
   margin-left: 5px;
-  /* float: left; */
 }
 .image {
   width: auto;
@@ -79,7 +77,6 @@ p {
 .offer {
   background-image: url(ban.png);
   background-size: cover;
-  /* background-color: #f0b27a; */
   width: 100%;
   height: 300px;
   float: inline-end;
