@@ -2,6 +2,9 @@ header {
   width: 100%;
   overflow: hidden;
   border-bottom: 1px solid #f1948a;
+  position: sticky;
+  top: 0;
+  background-color: aliceblue;
 }
 .logo {
   background-image: url(br3.png);
