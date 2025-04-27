@@ -7,7 +7,7 @@ header {
   background-color: aliceblue;
 }
 .logo {
-  background-image: url(br3.png);
+  background-image: url(images/br3.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 20%;
@@ -78,7 +78,7 @@ p {
 }
 
 .offer {
-  background-image: url(ban.png);
+  background-image: url(images/ban.png);
   background-size: cover;
   width: 100%;
   height: 300px;
@@ -88,7 +88,7 @@ p {
   background-color: #f1948a;
 }
 .oimg {
-  background-image: url(offer33.png);
+  background-image: url(images/offer33.png);
   background-size: cover;
   width: 25%;
   height: 300px;
