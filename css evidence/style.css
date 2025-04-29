@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(179, 126, 57);
+  padding: 25px;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  background-color: rgb(231, 194, 145);
+}
+
+.menu {
+  width: 50%;
+  float: left;
+  background-color: rgb(226, 198, 161);
+}
+
+.search {
+  width: 30%;
+  float: left;
+  background-color: rgb(214, 165, 101);
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  width: 25%;
+  height: 400px;
+  background-color: rgb(43, 106, 161);
+  float: left;
+}
+
+.main {
+  width: 75%;
+  height: 200px;
+  background-color: rgb(172, 203, 230);
+  float: left;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url(banner.png);
+  background-size: cover;
+}
+
+.row {
+  width: 100%;
+}
+.col1 {
+  width: 50%;
+  float: left;
+  background-color: rgb(168, 119, 214);
+  height: 100px;
+}
+.col2 {
+  width: 50%;
+  float: left;
+  background-color: rgb(187, 152, 219);
+  height: 100px;
+}
+footer {
+  background-color: rgb(161, 117, 60);
+  height: 40px;
+  width: 100%;
+  float: inline-end;
+}
