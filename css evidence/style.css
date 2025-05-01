@@ -6,19 +6,39 @@ body {
   width: 100%;
   background-color: rgb(179, 126, 57);
   padding: 25px;
+  height: 100px;
 }
 
 .logo {
   width: 20%;
+  height: 100px;
   float: left;
   background-color: rgb(231, 194, 145);
 }
 
 .menu {
   width: 50%;
+  height: 100px;
   float: left;
   background-color: rgb(226, 198, 161);
 }
+
+.menu a button{
+  background-color: rgb(155, 193, 226);
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 35px;
+  border-radius: 8px;
+  font-weight: bold;
+  
+}
+
+.menu a button:hover{
+  background-color: aliceblue;
+  color: rgb(161, 46, 11);
+}
+
 
 .search {
   width: 30%;
