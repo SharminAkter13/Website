@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .menu {
+        background-color: rgb(242, 226, 247);
+        color: blueviolet;
+        text-align: center;
+        /* height: 50px; */
+      }
+      .menu a {
+        text-decoration: none;
+
+        /* background-color: rgb(227, 176, 240); */
+        color: rgb(98, 11, 148);
+        margin: 10px;
+      }
+      .menu a:hover {
+        background-color: aliceblue;
+        color: blueviolet;
+      }
+      .sub-menu {
+        display: inline;
+        position: relative;
+      }
+
+      .sub-menu-content {
+        position: absolute;
+        top: 17px;
+        right: 0;
+        background-color: rgb(199, 156, 240);
+        text-align: left;
+        display: none;
+      }
+
+      .sub-menu-content a {
+        /* background-color: rgb(176, 104, 243);
+        color: aliceblue; */
+        display: block;
+      }
+      .sub-menu-content a:hover {
+        background-color: aliceblue;
+        color: blueviolet;
+      }
+
+      .sub-menu:hover .sub-menu-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <div class="sub-menu">
+        <a href="#">Items</a>
+        <!-- sub-menu content -->
+        <div class="sub-menu-content">
+          <a href="#">item 1</a>
+          <a href="#">item 2</a>
+          <a href="#">item 3</a>
+          <a href="#">item 4</a>
+          <a href="#">item 5</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
